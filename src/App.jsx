@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Hello } from "./Hello";
 import { Card } from "./Card/card";
+import { InputFeld } from "./input/inputFeld";
 import "./Card/card.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+      <InputFeld />
       <Hello name={"world"} frage={"wie gehts?"} />
       <Hello name={"Earth"} />
       <Hello name={"Saturn"} />
