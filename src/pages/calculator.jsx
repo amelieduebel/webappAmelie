@@ -1,6 +1,8 @@
 import { useState } from "react";
-export function InputFeld() {
+
+export function Calculator() {
   const [input, setValue] = useState(0);
+
   return (
     <div>
       {" "}
