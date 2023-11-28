@@ -10,6 +10,7 @@ export function Navbar() {
       <a href="calc">Calc</a>
       <a href="hello">Hello world</a>
       <a href="vite+react">Vite+React</a>
+      <a href="vaca">Vaca</a>
     </nav>
   );
 }
